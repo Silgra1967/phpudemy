@@ -1,3 +1,11 @@
+<?php
+$paises = array(
+    'Argentina', 'España', 'México',
+    'Corea', 'Australia', 'Canadá',
+    'Uruguay', 'Brasil', 'Cuba'
+);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,14 +37,37 @@
         </div>
         <div class="row">
             <div class="col-3">
-                <h3>Ciclo While</h3>
+                <h3>Sentencia Break y Continue</h3>
             </div>
             <div class="col-6">
+                <h1>
+                    Break
+                </h1>
                 <?php
-                $x = 1;
-                while ($x <= 10) {
-                    echo $x . '<br>';
-                    $x++;
+                echo '<h3>Listado Paises</h3>';
+                foreach ($paises as $pais) {
+                    echo $pais . '<br>';
+                }
+                '<br>';
+                echo '<h1>Listado Paises acortados</h1>';
+                foreach ($paises as $pais) {
+                    echo $pais . '<br>';
+                    if ($pais == 'Canadá') {
+                        break;
+                    }
+                }
+                ?>
+                <br><br>
+                <h1>
+                    Continue
+                </h1>
+                <?php
+                echo '<h3>Listado Paises saltando a Canadá</h3>';
+                foreach ($paises as $pais) {
+                    if ($pais == 'Canadá') {
+                        continue;
+                    }
+                    echo $pais . '<br>';
                 }
                 ?>
                 <br><br>
@@ -45,6 +76,7 @@
                 <img src="imagen\adorno.jpg" class="imgRedonda" alt="miimagen">
                 <br><br>
             </div>
+
         </div>
     </div>
 </body>

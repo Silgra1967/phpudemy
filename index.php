@@ -17,34 +17,49 @@
 <body>
     <div class="container fondocontainer">
         <div class="jumbotron fondojumbotrom">
-            <h1 class="display-4">Aprendiendo php 7</h1>
+            <h1 class="display-5">Aprendiendo php 7</h1>
             <p class="lead">Prácticas correspondientes al curso de Udemy</p>
-            <br>
         </div>
         <div class="row">
             <div class="col-12">
-                <p class="lead">Fundamentos de php 7</p>
+                <h1>Temario</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <h3>Fundamentos de php</h3>
                 <hr class="my-2">
             </div>
         </div>
         <div class="row">
-            <div class="col-3">
-                <h3>Ciclo While</h3>
+            <div class="col-6">
+                <a href="001_hola_mundo.php">Hola Mundo</a>
+                <br>
+                <a href="002_operadores.php">Operadores</a>
+                <br>
+                <a href="003_if.php">If</a>
+                <br>
+                <a href="004_ifabreviado.php">If abreviado</a>
+                <br>
+                <a href="005_ array_orden.php">Array: ordenados</a>
+                <br>
+                <a href="006_for.php">For</a>
+                <br>
+                <a href="007_while.php">While</a>
+                <br>
+                <a href="008_dowhile.php">Do While</a>
+                <br>
+                <a href="009_foreach.php">Foreach</a>
+                <br>
+                <a href="010_break.php">Break y Continue</a>
+                <br>
+                <br><br>
             </div>
             <div class="col-6">
-                <?php
-                $x = 1;
-                while ($x <= 10) {
-                    echo $x . '<br>';
-                    $x++;
-                }
-                ?>
-                <br><br>
+
             </div>
-            <div class="col-3">
-                <img src="imagen\adorno.jpg" class="imgRedonda" alt="miimagen">
-                <br><br>
-            </div>
+
         </div>
     </div>
 </body>

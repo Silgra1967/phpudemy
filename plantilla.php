@@ -29,22 +29,16 @@
         </div>
         <div class="row">
             <div class="col-3">
-                <h3>Ciclo While</h3>
+                <h3>Título</h3>
             </div>
             <div class="col-6">
-                <?php
-                $x = 1;
-                while ($x <= 10) {
-                    echo $x . '<br>';
-                    $x++;
-                }
-                ?>
-                <br><br>
+                <!--Acá va el programa-->
             </div>
             <div class="col-3">
                 <img src="imagen\adorno.jpg" class="imgRedonda" alt="miimagen">
                 <br><br>
             </div>
+
         </div>
     </div>
 </body>

@@ -1,0 +1,42 @@
+body {
+  background-image: url("/cursoudemy/imagen/fondo.png");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.fondocontainer {
+  background-color: #7c767646;
+}
+.trans {
+  opacity: 0.5;
+}
+.fondojumbotrom {
+  background-color: coral;
+}
+
+.imgRedonda {
+  width: 219px;
+  height: 219px;
+  border-radius: 149px;
+}
+
+a:link {
+  font-size: 25px;
+  color: coral;
+  text-decoration: none;
+}
+a:visited {
+  font-size: 25px;
+  color: beige;
+  text-decoration: none;
+}
+a:hover {
+  font-size: 25px;
+  color: red;
+  text-decoration: none;
+}
+a:active {
+  font-size: 25px;
+  color: darkgoldenrod;
+  text-decoration: none;
+}
